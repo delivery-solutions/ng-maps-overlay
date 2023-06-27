@@ -1,0 +1,15 @@
+.angular
+example
+node_modules
+scripts
+src
+target
+.gitignore
+.node-version
+angular.json
+CHANGELOG.md
+LICENSE
+ng-package.json
+package-lock.json
+package.json
+README.md

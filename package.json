@@ -1,0 +1,58 @@
+{
+  "name": "@deliverysolutions/ng-map-overlays",
+  "version": "1.0.0",
+  "description": "Custom marker overlay for the @ng-maps/core package",
+  "main": "dist/index",
+  "scripts": {
+    "build": "npm-run-all build:dist:js update:dist build:example",
+    "build:dist:js": "ng-packagr -p ng-package.json",
+    "update:dist": "node scripts/update-dist-package.js",
+    "build:example": "ng build example",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch",
+    "watch": "ng serve example --port 4200"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ds-arb/ng-maps-overlay"
+  },
+  "author": "Arbaaz Din",
+  "contributors": [
+    {
+      "name": "Rushabh Vora"
+    }
+  ],
+  "keywords": [
+    "ng",
+    "overlay",
+    "custom",
+    "markers",
+    "google",
+    "maps"
+  ],
+  "license": "MIT",
+  "readme": "https://github.com/ds-arb/ng-maps-overlay/issues",
+  "homepage": "https://github.com/ds-arb/ng-maps-overlay",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.8",
+    "@angular/cli": "^15.2.8",
+    "@angular/common": "^15.2.9",
+    "@angular/compiler": "^15.2.9",
+    "@angular/compiler-cli": "^15.2.9",
+    "@angular/core": "^15.2.9",
+    "@angular/platform-browser": "^15.2.9",
+    "@angular/platform-browser-dynamic": "^15.2.9",
+    "@ng-maps/core": "^5.0.2",
+    "@ng-maps/google": "^5.0.3",
+    "@ng-maps/marker-clusterer": "^5.0.1",
+    "@types/google.maps": "^3.53.4",
+    "i": "^0.3.7",
+    "ng-packagr": "^15.2.2",
+    "npm": "^9.7.1",
+    "npm-run-all": "^4.1.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0",
+    "typescript": "^4.6.4",
+    "zone.js": "^0.11.8"
+  }
+}
