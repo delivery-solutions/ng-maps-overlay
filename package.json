@@ -1,5 +1,5 @@
 {
-  "name": "@deliverysolutions/ng-map-overlays",
+  "name": "@deliverysolutions/ng-maps-overlays",
   "version": "1.0.0",
   "description": "Custom marker overlay for the @ng-maps/core package",
   "main": "dist/index",
